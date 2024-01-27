@@ -49,3 +49,8 @@ div.footer{
     color: rgb(90, 90, 90);
     text-align: center;
 }
+
+img.uci{
+    max-width: 100%;
+    height:auto;
+}
