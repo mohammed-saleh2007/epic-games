@@ -1,0 +1,40 @@
+h1.big-title{
+    /* float: right; */
+    margin-right: 100px;
+}
+
+img.logo-img{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 8px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+div.top-bar{
+    /* border: 5px solid black; */
+    /* border-bottom: 5px solid black; */
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+}
+
+div.links{
+    text-align: center;
+}
+
+a.link-bar{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    /* text-align: center; */
+}
+
+a.link-bar:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+a.link-bar:active{
+    background-color: rgb(210, 210, 210)
+}
