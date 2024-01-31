@@ -90,7 +90,7 @@ dev.uci_contan{
 
 .game-card{
     border: 2px solid black;
-    border-radius: 1px;
+    border-radius: 10px;
     margin: 10px;
     padding: 5px;
     width: 30%;
@@ -114,4 +114,22 @@ img.game-img{
 
 button.play-button{
 
+}
+
+h1.news-title{
+    border-right: blueviolet 10px solid;
+    padding-right: 10px;
+    background-color: rgb(216, 183, 248);
+}
+
+div.news{
+    overflow: auto;
+    border: black solid 1px;
+}
+
+img.news-img{
+    float: right;
+    max-width: 50%;
+    width: 25%;
+    padding: 5px;
 }
