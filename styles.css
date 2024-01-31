@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 h1.big-title {
     /* float: right; */
     margin-right: 100px;
@@ -44,7 +48,7 @@ li a:hover {
 }
 
 .active {
-    background-color: red;
+    background-color: blueviolet;
 }
 
 div.footer {
@@ -65,3 +69,49 @@ dev.uci_contan{
     height : 100hv;
 }
 */
+
+/* a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+} */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix{
+    display: flex;
+    justify-content: center;
+}
+
+.game-card{
+    border: 2px solid black;
+    border-radius: 1px;
+    margin: 10px;
+    padding: 5px;
+    width: 30%;
+    float: left;
+    overflow: auto;
+    transition: transform 0.3s ease;
+}
+
+h1.game-card-title{
+    text-align: center;
+}
+
+img.game-img{
+    max-width: 100%;
+}
+
+.game-card:hover{
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+button.play-button{
+
+}
