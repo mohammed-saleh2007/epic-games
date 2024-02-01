@@ -29,6 +29,13 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
+    top: 0;
+}
+
+div.links{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
 }
 
 li {
@@ -83,18 +90,26 @@ dev.uci_contan{
     display: table;
 } */
 
-.clearfix{
+.games{
     display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
     justify-content: center;
+    
 }
 
 .game-card{
     border: 2px solid black;
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
-    width: 30%;
+    max-width: 300px;
     transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 h1.game-card-title{
@@ -111,6 +126,8 @@ img.game-img{
 }
 
 button.play-button{
+    padding: 5px;
+    margin: 5px;
 
 }
 
