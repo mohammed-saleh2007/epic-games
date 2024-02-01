@@ -21,28 +21,27 @@ div.top-bar {
     /* border-bottom: 5px solid black; */
     border-right: 5px solid black;
     border-top: 5px solid black;
+    /* position: -webkit-sticky;
+    position: sticky;
+    z-index: 1; */
 }
 
-ul {
+div.links {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-
+    max-width: 100%;
     top: 0;
+    max-width: 100%;  
+    position: -webkit-sticky;
+    position: sticky; 
+    z-index: 1;
 }
 
-div.links{
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-}
 
-li {
-    float: left;
-}
-
-li a {
+.links  a{
     display: inline-block;
     color: white;
     text-align: center;
@@ -50,7 +49,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.links a:hover {
     background-color: #111;
 }
 
@@ -109,6 +108,7 @@ dev.uci_contan{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    /* position: relative; */
 
 }
 
@@ -128,10 +128,9 @@ img.game-img{
 button.play-button{
     padding: 5px;
     margin: 5px;
-
 }
 
-h1.news-title{
+.news-title{
     border-right: blueviolet 10px solid;
     padding-right: 10px;
     background-color: rgb(216, 183, 248);
