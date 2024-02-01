@@ -128,6 +128,15 @@ img.game-img{
 button.play-button{
     padding: 5px;
     margin: 5px;
+    border: tomato solid 1px;
+    background-color: white;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+button.play-button:hover{
+    background-color: tomato;
+    color: white;
 }
 
 .news-title{
