@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;
+    margin: 0;
+
 }
 
 h1.big-title {
@@ -30,7 +31,7 @@ div.top-bar {
 }
 
 img.menu-img{
-    width: 5%;
+    width: 30px;
     top: 0;
     left: 0;
     margin: 10px;
@@ -41,13 +42,13 @@ img.menu-img{
 }
 
 div.links {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     max-width: 100%;
     top: 0;
+    left: 0;
     max-width: 100%;  
     position: -webkit-sticky;
     position: sticky; 
@@ -183,7 +184,7 @@ button.play-button:hover{
     border-right: blueviolet 10px solid;
     padding-right: 10px;
     background-color: rgb(216, 183, 248);
-    width: 100%;
+    /* width: 100%; */
 }
 
 div.news{
