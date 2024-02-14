@@ -1,0 +1,18 @@
+th{
+    border: 2px solid black ;
+}
+
+table{
+    border: 1px solid black
+}
+
+div.galary{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+img.galary{
+    margin: 5px;
+    height: 250px;
+}
