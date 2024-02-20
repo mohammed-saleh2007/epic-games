@@ -6,6 +6,7 @@
 h1.big-title {
     /* float: right; */
     margin-right: 100px;
+    text-align: center;
 }
 
 img.logo-img {

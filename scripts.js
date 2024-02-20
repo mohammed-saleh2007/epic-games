@@ -12,5 +12,6 @@ function menu_popup_close(){
     document.getElementById("menu").style.display = "none";
     document.getElementById("dark").style.display = "none";
     document.getElementById("menu-open").style.display = "block";
-    }
+}
+
 
