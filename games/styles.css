@@ -99,3 +99,27 @@ div.game-title{
     color: white;
     padding: 2px;
 }
+
+
+.user-review{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    justify-content: left;
+    margin-bottom: 0;
+}
+
+.user-review img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.user-review p{
+    margin: 5px;
+    padding: 5px;
+}
+
