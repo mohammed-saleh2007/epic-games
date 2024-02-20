@@ -30,7 +30,7 @@ div.game-title{
 
 .game-title img, .title-info{
    margin-right: 15px;
-   width: 45%; 
+   width: 60%; 
 }
 
 .game-title img{
@@ -123,3 +123,17 @@ div.game-title{
     padding: 5px;
 }
 
+button.play-button{
+    padding: 5px;
+    margin: 5px;
+    border: #017FA6  solid 1px;
+    background-color: white;
+    color: black;
+    transition: color 0.3s ease-in-out;
+    width: 35%;
+}
+
+button.play-button:hover{
+    background-color: #017FA6 ;
+    color: white;
+}
