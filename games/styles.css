@@ -12,7 +12,83 @@ div.galary{
     padding: 5px;
 }
 
-img.galary{
+.galary img{
     margin: 5px;
     height: 250px;
+    border-radius: 5%;
+}
+
+div.game-title{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.game-title img, .title-info{
+   margin-right: 15px;
+   width: 45%; 
+}
+
+.game-title img{
+    border-radius: 25%;
+    width:100px;
+    height: 100px;
+}
+
+.seperator{
+    color: #017FA6;
+}
+
+.info-bar{
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.section h1{
+    border-left: 5px solid #017FA6;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    
+}
+
+
+.section p{
+    border-radius: 15px;
+
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+.reviews{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+    
+.bar-name{
+    width:20%;
+}
+
+.total-star{
+    width:20%
+}
+*/
+.main-bar{
+    background-color: rgb(200, 200, 200);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+    
+}
+
+.prog{
+    background-color:#017FA6 ;
+    /*height: 25px;*/
+    color: white;
+    padding: 2px;
 }
